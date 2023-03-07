@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Xochitl Celaya">
+    <meta name="description" content="Portafolio de desarrollo web de Xochitl Celaya">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Xochitl Celaya | Desarrollo web Front-End  </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/flower1.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/flower1.svg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Xochitl_celaya.jpg" alt="Foto de Xochitl Celaya">
+        <h1>Hola, soy Xochitl Celaya</h1>
+        <!--<h2>Soy ingeniera quimica y Programadora front-end Jr. </h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/Fondo2.png" alt="ingeniera programando un sitio web.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Xochitl Celaya</h2>
+        <p class="seccion-texto">Soy una ingeniera química en busca de mi primer empleo. También cuento con una formación técnica en mecatrónica. Como principiante en el campo de la programación front end, tengo experiencia en el desarrollo de paginas web utilizando HTML, CSS y JavaScript. 
+        y estoy dispuesta a seguir aprendiendo para mejorar mis habilidades en este campo.
+          Cuento con experiencia en diseño de proyectos emprendedores y un diplomado en marketing digital lo que me ha permitido desarrollar mis dos emprendimientos: <a href="https://www.instagram.com/maixim.botanas/">MAIXIM</a> y <a href="https://www.instagram.com/theecologybag/">THE ECOLOGY BAG.</a> 
+          Estoy emocionada de continuar desarrollando mis habilidades como programadora front end y de contribuir con mi experiencia en ingeniería química y mecatrónica a cualquier proyecto en el que me involucre.
+          Invierto mi tiempo libre realizando DIY o proyectos textiles propios (confección de prendas de vestir 👗).</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Soy programadora front-end Jr aprendi recientemente en el Bootcamp de <a href="https://tecnolochicas.mx/">tecnolochicas</a> PRO y quiero seguir desarrollando proyectos. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">CSS</span>
+              <span class="badge text-bg-secondary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Voluntariados -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-hearts"></i>
+            <p class="experiencia-titulo">Voluntariado</p>
+            <p>Me gusta realizar acciones que contibuyan en el desarrollo de la educación de las generaciones mas jovenes, fue voluntaria en <a href="https://www.instagram.com/ugninosgto/">ugniños</a>.</p>
+            
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Educación</span>
+              <span class="badge text-bg-secondary">Infancia</span>
+              <span class="badge text-bg-secondary">voluntaria</span>
+            </div>
+          </div>
+          <!-- Ingenieria -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-puzzle-fill"></i>
+            <p class="experiencia-titulo">Ingenieria</p>
+            <p>Me gustaria poder desarrollar proyectos donde involucre mi carrera y conocimietnos extracurricuares adquiridos a lo largo de mi formacion profesional</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Mkt digt</span>
+              <span class="badge text-bg-secondary">IQ</span>
+              <span class="badge text-bg-secondary">Liderazgo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 clonacion google -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clonaciongoogle1.png" alt="Proyecto clonacion de google">
+              <div class="overlay">
+                <p>Proyecto 1: clonacion Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/XochitlCelaya/ClonacionGoogle.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://clonaciongooglexochitl.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 sitio gatitos -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/BeFunky-photo.png" alt="Proyecto sito de gatitos">
+              <div class="overlay">
+                <p>Proyecto 2: sitio de gatitos</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/XochitlCelaya/sitiogatitos.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://sitiodegatitos.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 calculadora-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/BeFunky-photo (1).png" alt="Proyecto calculadora">
+              <div class="overlay">
+                <p>Proyecto 3: Calculadora basica</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/XochitlCelaya/calculadora.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://calculadoraxo.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personas que me inspiran -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Personas que me inspiran</h2>
+      <div class="card">
+        <div class="card-header">
+          links a sus perfiles y contenidos 
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://linktr.ee/rodolfoferro" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Rodolfo Ferro 👨‍💻
+            </li>
+          </a>
+          <a href="https://www.instagram.com/chaos_gil/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Gil Rodriguez Rivera 👨‍💻
+            </li>
+          </a>
+          <a href="http://www.segovia-hernandez.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Dr. Juan Gabriel Segovia-Hernandez 👨‍🔬
+            </li>
+          </a>
+          <a href="https://www.instagram.com/analuzsaso/?hl=es" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Ana Luz 💜
+            </li>
+          </a>
+          <a href="https://www.nancynsalazar.tech/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Nancy N Salazar 👩‍💻 
+            </li>
+          </a>
+          <a href="https://linktr.ee/graciasmadeit" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Maria Gracia 👗
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colegas...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Fernando.jpeg" alt="Foto de Fernando">
+              <p class="testimonio-texto">Xochitl es para mí un claro ejemplo de constancia y perseverancia, es una persona disciplinada y enfocada en alcanzar sus objetivos, pero su mayor radica en su esencia, en el gran corazón y los valores que posee. Es para mí el significado Perfecto de amistad y lealtad.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Fernando García</p>
+                <p class="cargo">Ingeniero Químico</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Gerardo.jpeg" alt="Foto de Gerardo">
+              <p class="testimonio-texto">Xochitl cómo persona creo que es muy dedicada, no se conforma y siempre investiga cuando no entiende algo. Cuando trabajé con ella siempre fue muy dedicada, ayuda en todo lo que pueda y en lo que se le pida, es buena buscando información y administrando su tiempo, capaz de adaptarse a las personas que trabajan con ella y muy buena trabajando bajo presión. sí me pidieran trabajar con ella de nuevo, lo haría con mucho gusto.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gerardo</p>
+                <p class="cargo">Ingeniero Químico</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/aranza.png" alt="Foto de Aranzazú">
+              <p class="testimonio-texto">Ing.Xochitl muestra interés y desempeño para la realización de actividades que le permiten enfrentar retos profesionales en apego a sus metas personales dentro de cualquier organización. Compromiso e Iniciativa son parte de sus aptitudes como profesionista que van a permitirle desarrollarse. logrando ser una pieza clave en procesos productivos encaminados al área de mejora continua.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Aranzazú León</p>
+                <p class="cargo">Ingeniera en Alimentos</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Nancy.jpeg" alt="Foto de Nancy">
+              <p class="testimonio-texto">Xochitl demostró ser una estudiante bastante comprometida con su formación como programadora web. Desarrolló habilidades técnicas en corto tiempo y sin duda volvería a trabajar con ella.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">Instructora en tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para crear cosas grandes juntos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:xochitlcelaya22@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/flower1.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Soy mujer <br>y hago ciencia.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        </a>
+        <a href="https://github.com/XochitlCelaya" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/xochitl-celaya/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:xochitlcelaya22@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Xochitl Celaya (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
